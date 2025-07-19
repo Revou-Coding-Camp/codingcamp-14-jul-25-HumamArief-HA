@@ -1,18 +1,26 @@
-.gradient-bg {
-    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+body {
+    background-color: #FFF3E0;
+    color: #3E2723;
 }
-.card-hover:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+header {
+    background-color: #3E2723;
+    color: #FFE0B2;
 }
-.transition-all {
-    transition: all 0.3s ease;
+
+button {
+    background-color: #D4A373;
+    color: #FFF3E0;
 }
-.profile-pic-container {
-    margin-top: -100px;
+
+a {
+    color: #8D6E63;
 }
-@media (max-width: 768px) {
-    .profile-pic-container {
-        margin-top: -50px;
-    }
+
+a:hover {
+    color: #FFE0B2;
+}
+
+footer {
+    background-color: #3E2723;
 }
